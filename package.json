@@ -1,0 +1,19 @@
+{
+  "name": "express-banking-system",
+  "version": "1.0.0",
+  "description": "Simple Express.js banking system with registration, login, PIN management, balance and transfers.",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
